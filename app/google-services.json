@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1091222427757",
+    "project_id": "parsons-cab0d",
+    "storage_bucket": "parsons-cab0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091222427757:android:04b512891e6843f1794764",
+        "android_client_info": {
+          "package_name": "com.parsons.bakery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091222427757-0krn9tosf3dtuoskreo5c28t51n57tv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClXreTLjivLo1ry8ISfPV7pFRBVOCyT00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091222427757-0krn9tosf3dtuoskreo5c28t51n57tv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

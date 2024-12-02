@@ -1,0 +1,99 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground"
+    android:layout_margin="8dp">
+
+    <!-- Thumbnail or Item Image -->
+    <ImageView
+        android:id="@+id/item_thumbnail"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_person_24" />
+
+    <!-- Order Title -->
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_thumbnail"
+        android:layout_toStartOf="@id/item_price"
+        android:layout_marginStart="8dp"
+        android:text="Item Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <!-- Order Date -->
+    <TextView
+        android:id="@+id/order_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_thumbnail"
+        android:layout_marginStart="8dp"
+        android:layout_below="@id/item_name"
+        android:text="Order Date: Oct 29, 2024"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:text="$25.99"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <!-- Other 2 Items -->
+    <LinearLayout
+        android:id="@+id/other_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_date"
+        android:layout_toEndOf="@id/item_thumbnail"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/other_item_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Other Item 1"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/other_item_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Other Item 2"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- Reorder Button -->
+    <Button
+        android:id="@+id/reorder_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/other_items"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Reorder"
+        android:textSize="14sp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

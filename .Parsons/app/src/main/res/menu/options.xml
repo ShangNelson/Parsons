@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/db"
+        android:title="View Database"/>
+
+    <item android:id="@+id/Logout"
+        android:title="Logout"/>
+
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="@string/Cart"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/switchesBack"
+        android:title="Return"/>
+    <item
+        android:id="@+id/switchesT0"
+        android:title="To Client View"/>
+</menu>

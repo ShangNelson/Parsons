@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Parsons</string>
+    <string name="title_home">Home</string>
+    <string name="title_order">Order</string>
+    <string name="title_acct">Account</string>
+    <string name="title_activity_menu_customization">MenuCustomization</string>
+
+
+    <string name="asset_statements" translatable="false">
+[{
+  \"include\": \"https://dnconsultants.net/.well-known/assetlinks.json\"
+}]
+</string>
+
+    <string name="invalid_login">Incorrect Username or Password.</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="addToOrder">Add To Order</string>
+    <string name="clear">Clear</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Cart">Cart</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Order Defaults</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="name_title">Default Name</string>
+    <string name="number_title">Default Contact Number</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_baker">Baker</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="chat">Chat</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="action_settings">Settings</string>
+    <string name="view_all">View All</string>
+</resources>

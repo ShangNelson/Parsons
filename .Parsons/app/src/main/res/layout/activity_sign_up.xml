@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signUpContainer"
+    tools:context=".client.ui.acct.SignUp">
+
+    <EditText
+        android:id="@+id/FirstName"
+        android:inputType="textPersonName"
+        android:layout_width="300dp"
+        android:layout_above="@id/LastName"
+        android:hint="First Name"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/LastName"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        android:textAlignment="center"
+        android:layout_above="@id/UserName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/UserName"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:hint="Username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/Password"
+        android:layout_below="@id/UserName"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:hint="Password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Password"
+        android:textAlignment="center"
+        android:text="Sign up"/>
+
+</RelativeLayout>
